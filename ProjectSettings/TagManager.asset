@@ -11,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
+  - MiniMapObjects
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - RCC
+  - RCC_WheelCollider
+  - RCC_DetachablePart
+  - RCC_Trailer
+  - RCC_Crasher
   - 
   - 
   - 

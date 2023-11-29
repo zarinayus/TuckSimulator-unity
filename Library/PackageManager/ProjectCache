@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/mocbook/Downloads/GreenTeamTrucks/Packages/manifest.json
+    m_FilePath: /Users/abdibrokhim/Downloads/TruckSimulator/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638359430330000000
-    m_Hash: 3021885369
+      ticks: 638361691700000000
+    m_Hash: 4212924318
   m_LockFileStatus:
-    m_FilePath: /Users/mocbook/Downloads/GreenTeamTrucks/Packages/packages-lock.json
+    m_FilePath: /Users/abdibrokhim/Downloads/TruckSimulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638359430350000000
-    m_Hash: 3528972385
+      ticks: 638361691740000000
+    m_Hash: 1107893091
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/mocbook/Downloads/GreenTeamTrucks/Packages
-m_EditorVersion: 2022.3.10f1 (ff3792e53c62)
+m_ProjectPath: /Users/abdibrokhim/Downloads/TruckSimulator/Packages
+m_EditorVersion: 2022.3.14f1 (eff2de9070d8)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
   version: 2.2.0
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.collab-proxy@2.2.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.collab-proxy@2.2.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -115,13 +115,8 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     compatible:
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
-    - 2.1.0
     - 2.2.0
-    recommended: 2.0.7
+    recommended: 2.2.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -159,7 +154,7 @@ m_ResolvedPackages:
     revision: 33c8fba1793946be3c73f738edf70db0b5546afd
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 2.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -171,7 +166,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.feature.development@1.0.1
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -211,7 +206,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.18
+    version: 2.0.22
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -221,7 +216,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.24
+    version: 3.0.26
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -259,77 +254,97 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.postprocessing@3.2.2
+- packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 1
-  version: 3.2.2
+  version: 1.7.0
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.postprocessing@3.2.2
-  assetPath: Packages/com.unity.postprocessing
-  name: com.unity.postprocessing
-  displayName: Post Processing
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.inputsystem@1.7.0
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
   author:
     name: 
     email: 
     url: 
   category: 
-  type: asset
-  description: The post-processing stack (v2) comes with a collection of effects
-    and image filters you can apply to your cameras to improve the visuals of your
-    games.
+  type: assets
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
   errors: []
   versions:
     all:
-    - 0.1.7
-    - 0.1.8
-    - 2.0.0-beta
-    - 2.0.1-beta
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.5-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.0.10-preview
-    - 2.0.11-preview
-    - 2.0.12-preview
-    - 2.0.13-preview
-    - 2.0.14-preview
-    - 2.0.15-preview
-    - 2.0.16-preview
-    - 2.0.17-preview
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.7
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0
-    - 3.0.1
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.2.0
-    - 3.2.1
-    - 3.2.2
-    - 3.3.0
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
     compatible:
-    - 3.2.2
-    - 3.3.0
-    recommended: 3.2.2
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    recommended: 1.7.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.physics
+  - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.physics
+  - name: com.unity.modules.uielements
     version: 1.0.0
-  keywords: []
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
   registry:
     id: main
     name: 
@@ -340,16 +355,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637855259850000000
-  documentationUrl: 
+  datePublishedTicks: 638277060810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/Graphics.git
-    revision: 815ce78463c7d3006fa97cd6e8898d91cb9c3ebf
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: e29989176f3a8473ba30854e4bfae953083eba28
     path: 
   unityLifecycle:
-    version: 3.2.2
+    version: 1.7.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -361,7 +376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.textmeshpro@3.0.6
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -537,12 +552,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.6
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.timeline@1.7.5
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -644,7 +659,6 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     compatible:
-    - 1.7.5
     - 1.7.6
     - 1.8.0
     - 1.8.1
@@ -689,16 +703,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
-    version: 1.7.5
+    version: 1.7.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -710,7 +724,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.ugui@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -776,12 +790,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.9.0
+- packageId: com.unity.visualscripting@1.9.1
   testable: 0
   isDirectDependency: 1
-  version: 1.9.0
+  version: 1.9.1
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.visualscripting@1.9.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.visualscripting@1.9.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -827,7 +841,6 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     compatible:
-    - 1.9.0
     - 1.9.1
     recommended: 1.9.1
     deprecated:
@@ -857,16 +870,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638267547090000000
+  datePublishedTicks: 638284821510000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 21b38599b7fcf9bdccd964bdb90710e6a1094810
+    revision: 5e78e9c354ed1567dbcea08e2bd9992e4a473cfb
     path: 
   unityLifecycle:
-    version: 1.9.0
+    version: 1.9.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -878,7 +891,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.ai@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -933,7 +946,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -987,7 +1000,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.animation@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1042,7 +1055,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1097,7 +1110,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.audio@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1152,7 +1165,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.cloth@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1211,7 +1224,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.director@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1274,7 +1287,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1330,7 +1343,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.imgui@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1385,7 +1398,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1440,7 +1453,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1495,7 +1508,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.physics@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1550,7 +1563,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1605,7 +1618,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1664,7 +1677,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.terrain@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1719,7 +1732,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1782,7 +1795,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1840,7 +1853,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.ui@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1895,7 +1908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.uielements@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1962,7 +1975,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.umbra@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2017,7 +2030,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2080,7 +2093,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2135,7 +2148,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2198,7 +2211,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2261,7 +2274,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2324,7 +2337,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2403,7 +2416,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2462,7 +2475,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.video@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2529,7 +2542,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.vr@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2598,7 +2611,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.wind@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2653,7 +2666,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.xr@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2720,7 +2733,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2774,12 +2787,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
-  version: 2.0.18
+  version: 2.0.22
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.ide.visualstudio@2.0.18
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2788,7 +2801,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -2821,9 +2834,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.18
-    - 2.0.20
-    - 2.0.21
     - 2.0.22
     recommended: 2.0.22
     deprecated: []
@@ -2850,28 +2860,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.26
   testable: 0
   isDirectDependency: 0
-  version: 3.0.24
+  version: 3.0.26
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.ide.rider@3.0.24
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2929,8 +2939,6 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     compatible:
-    - 3.0.24
-    - 3.0.25
     - 3.0.26
     recommended: 3.0.26
     deprecated: []
@@ -2951,16 +2959,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
+  datePublishedTicks: 638326061920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
     path: 
   unityLifecycle:
-    version: 3.0.24
+    version: 3.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2972,7 +2980,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.ide.vscode@1.2.5
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -3040,7 +3048,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.editorcoroutines@1.0.0
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3105,7 +3113,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3176,7 +3184,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.test-framework@1.1.33
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3305,7 +3313,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3409,7 +3417,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.settings-manager@2.0.1
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3471,7 +3479,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: /Users/mocbook/Downloads/GreenTeamTrucks/Library/PackageCache/com.unity.ext.nunit@1.0.6
+  resolvedPath: /Users/abdibrokhim/Downloads/TruckSimulator/Library/PackageCache/com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
