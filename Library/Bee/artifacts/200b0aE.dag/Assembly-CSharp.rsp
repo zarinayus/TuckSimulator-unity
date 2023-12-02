@@ -474,6 +474,7 @@
 "Assets/RealisticCarControllerV3/Scripts/RCC_WheelCamera.cs"
 "Assets/RealisticCarControllerV3/Scripts/RCC_WheelCollider.cs"
 "Assets/RealisticCarControllerV3/Scripts/StopWatch.cs"
+"Assets/Timer.cs"
 "Assets/Truck Controller.cs"
 -langversion:9.0
 

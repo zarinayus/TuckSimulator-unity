@@ -1,1 +1,1 @@
-/Users/abdibrokhim/Downloads/TruckSimulator
+/Users/abdibrokhim/Downloads/github/TuckSimulator-unity
