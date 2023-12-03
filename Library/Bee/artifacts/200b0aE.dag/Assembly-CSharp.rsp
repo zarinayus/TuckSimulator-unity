@@ -365,6 +365,7 @@
 "Assets/LevelScript.cs"
 "Assets/MiniMapScript.cs"
 "Assets/PauseMenu.cs"
+"Assets/QuickStart.cs"
 "Assets/RealisticCarControllerV3/Scripts/MainMenu.cs"
 "Assets/RealisticCarControllerV3/Scripts/RCC.cs"
 "Assets/RealisticCarControllerV3/Scripts/RCC_AIBrakeZone.cs"

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RealisticCarControllerV3/Demo Scenes/DemoTruckSceneV1.unity
+- path: Assets/RealisticCarControllerV3/Demo Scenes/Main Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/RealisticCarControllerV3/Demo Scenes/Main Menu.unity
+    path: Assets/RealisticCarControllerV3/Demo Scenes/Intro.unity
     guid: ec8ef9aa1bb544c1eb5ad906b5569485
   - enabled: 1
     path: Assets/RealisticCarControllerV3/Demo Scenes/DemoTruckSceneV1.unity
