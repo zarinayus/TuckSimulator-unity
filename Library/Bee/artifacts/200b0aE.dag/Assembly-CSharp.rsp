@@ -361,6 +361,7 @@
 "Assets/EasyRoads3D Pro/Scripts/runtimeScript.cs"
 "Assets/FollowTarget.cs"
 "Assets/FollowYRotation.cs"
+"Assets/HelpMenu.cs"
 "Assets/LevelScript.cs"
 "Assets/MiniMapScript.cs"
 "Assets/PauseMenu.cs"

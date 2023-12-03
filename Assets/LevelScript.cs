@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelScript : MonoBehaviour
 {
@@ -9,17 +10,21 @@ public class LevelScript : MonoBehaviour
     public GameObject mainMenuUI;
     public GameObject currentLevelUI;  // Adjust this based on your actual UI structure
 
-    public static int selectedLevel = 1;  // Default to 0 or a valid level index
+    public static int selectedLevel = 1;  // Default to 1 or a valid level index
+    public static bool levelPassed = false;  // TODO: Implement lavel passed method to unblock next higher level
 
     public void LoadLevel(int levelNum)
     {
-        selectedLevel = levelNum;
-        Debug.Log("Loading level: " + levelNum);
-        SceneManager.LoadScene(levelNum);
-        Time.timeScale = 1f;
-        PauseMenu.GameIsPaused = false;
-        PauseMenu.IsMainMenu = false;
-        PauseMenu.IsLevelSelect = false;
+        if (levelNum == 1)
+        {
+            selectedLevel = levelNum;
+            Debug.Log("Loading level: " + levelNum);
+            SceneManager.LoadScene(levelNum);
+            Time.timeScale = 1f;
+            PauseMenu.GameIsPaused = false;
+            PauseMenu.IsMainMenu = false;
+            PauseMenu.IsLevelSelect = false;
+        }
     }
 
     public void BackToMainMenu()
@@ -40,5 +45,4 @@ public class LevelScript : MonoBehaviour
         Time.timeScale = 0f;  // Assuming you want the time to run normally in the main menu
     }
 
-    // Additional level-related methods can be added here
 }

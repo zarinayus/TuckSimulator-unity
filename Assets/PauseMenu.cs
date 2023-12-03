@@ -15,7 +15,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)) && !HelpMenu.IsHelpRequested)
         {
             if (!GameIsPaused && !IsMainMenu && !IsLevelSelect)
             {
@@ -61,7 +61,4 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
         IsMainMenu = false;
     }
-
-
-    // TODO: Implement other methods like RestartGame and LoadLevelSelect
 }
